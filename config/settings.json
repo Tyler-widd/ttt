@@ -9,6 +9,7 @@
     "tabSize": 4,
     "insertSpaces": true,
     "wordWrap": false,
+    "wordWrapColumn": 0,
     "diffMode": "split",
     "diffContext": "changes",
     "diffWordWrap": false,
@@ -51,7 +52,8 @@
   },
   "terminal": {
     "scrollback": 1000,
-    "selectionStyle": "background"
+    "selectionStyle": "background",
+    "ctrlVPastes": true
   },
   "lsp": {
     "saveOnRename": false,
